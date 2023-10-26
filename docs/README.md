@@ -12,7 +12,7 @@ A sample set of images are provided in an **images** directory.
 
 ## Usage
 
-To run ImageLab from the command line:
+### To run ImageLab from the command line:
 
 * Make sure a **filters** directory is _in the same directory_ as the **imagelab.jar** file and contains compiled filters (`.class` files).  For example, this could be accomplished using the command  
 ```javac -cp .:imagelab.jar filters/*.java```
@@ -21,6 +21,18 @@ To run ImageLab from the command line:
 ```java -cp ".:imagelab.jar" Run``` 
   
  Note that on Windows platforms, the ":" character in the classpath must be changed to the ";" character.)
+
+ ### Run with BlueJ
+[Install BlueJ for your operating system](https://www.bluej.org/)
+* Clone the ImageLab repository to your local machine.
+* Run BlueJ
+* Select Project in the BlueJ menu > Open Project
+* Select the root folder of the cloned ImageLab repository.
+* Right click the box titled "Run" > Select "void main(String[] args)"
+* Hit "OK", or enter on your keyboard.
+
+At this point, ImageLab should open in a seperate GUI window.
+ 
 
 ## Downloads
 
