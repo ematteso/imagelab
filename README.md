@@ -4,7 +4,7 @@ ImageLab is a framework that allows students to develop
 image modification processors (filters) and to experience
 the results visually and aurally. This project can be ran as a BlueJ Project, directly from the command line, or built with a gradle wrapper. 
 
-Project Website: https://metrocs.github.io/imagelab/
+Project Website & User Instructions: https://metrocs.github.io/imagelab/
 _____
 
 ## Table of Contents
