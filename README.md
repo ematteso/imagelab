@@ -9,8 +9,6 @@ _____
 
 ## Table of Contents
 + [Repository Contents](#repository-contents)
-+ [BlueJ Instructions](#bluej-instructions)
-+ [Command Line Instructions](#use-from-command-line)
 + [Build Instructions](#build-instructions)
 + [License](#license)
 
@@ -19,25 +17,6 @@ _____
 - The `imagelab.jar` file also includes the class __Run__ with a `public static void main` method in the unnamed package, used to facilitate running the ImageLab application.
 - The __filter__ package is generally provided as a folder with source (`.java`) and compiled (`.class`) files, with the source versions serving as examples for students to create their own filters.
 - A sample set of images are provided in an __"images"__ directory.
-
-## BlueJ Instructions
-[Install BlueJ for your operating system](https://www.bluej.org/)
-1. Clone the ImageLab repository to your local machine.
-2. Run BlueJ
-3. Select Project in the BlueJ menu > Open Project
-4. Select the root folder of the cloned ImageLab repository.
-5. Right click the box titled "Run" > Select "void main(String[] args)"
-6. Hit "OK", or enter on your keyboard.
-
-At this point, ImageLab should open in a seperate GUI window.
-
-## Use From Command Line:  
-1. Open command line and change directory to the ImageLab root folder. If you have not cloned the repository, do so and change directory to the root.
-2. In your file explorer, navigate into the ImageLab root folder > Filters. Make sure there is at least one filter inside. If the filter source code has not compiled, issue the command: 
-`javac -cp .:imagelab.jar filters/*.java`
-3. Run the ImageLab application using the command  
-`java -cp ".:imagelab.jar" Run`  
-(Note that on Windows platforms, the ":" character in the classpath must be changed to the ";" character.)
 
 ## Build Instructions 
 
