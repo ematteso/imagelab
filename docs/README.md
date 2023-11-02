@@ -22,14 +22,14 @@ A sample set of images are provided in an **images** directory.
   
  Note that on Windows platforms, the ":" character in the classpath must be changed to the ";" character.)
 
- ### Run with BlueJ
+ ### To run ImageLab using BlueJ
 [Install BlueJ for your operating system](https://www.bluej.org/)
 * Clone the ImageLab repository to your local machine.
-* Run BlueJ
-* Select Project in the BlueJ menu > Open Project
+* Run BlueJ.
+* Select Open Project... from the Project menu.
 * Select the root folder of the cloned ImageLab repository.
-* Right click the box titled "Run" > Select "void main(String[] args)"
-* Hit "OK", or enter on your keyboard.
+* Right-click on the "Run" icon which pops up a menu. Select the "void main(String[] args)" method.
+* Select "OK" in the "Method Call" popup window.
 
 At this point, ImageLab should open in a seperate GUI window.
  
