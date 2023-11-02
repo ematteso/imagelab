@@ -1,8 +1,6 @@
 # ImageLab
 
-ImageLab is a framework that allows students to develop
-image modification processors (filters) and to experience
-the results visually and aurally. This project can be ran as a BlueJ Project, directly from the command line, or built with a gradle wrapper. 
+ImageLab is a framework that allows students to develop image modification processors (filters) and to experience the results visually and aurally.
 
 Project Website & User Instructions: https://metrocs.github.io/imagelab/
 _____
@@ -13,7 +11,7 @@ _____
 + [License](#license)
 
 ## Repository Contents 
-- The __imagelab__ and __sound__ packages may be provided in an `imagelab.jar` file.
+- The __imagelab__ and __sound__ packages are provided in an `imagelab.jar` file.
 - The `imagelab.jar` file also includes the class __Run__ with a `public static void main` method in the unnamed package, used to facilitate running the ImageLab application.
 - The __filter__ package is generally provided as a folder with source (`.java`) and compiled (`.class`) files, with the source versions serving as examples for students to create their own filters.
 - A sample set of images are provided in an __"images"__ directory.
@@ -21,8 +19,7 @@ _____
 ## Build Instructions 
 
 ### Build System Requirements
-- Install Gradle
-  * Gradle is the tool used in this repository for automation of the build. Please visit https://gradle.org/ for specific installation instructions.
+The [Gradle](https://gradle.org/) tool is used for build automation. Please see [https://gradle.org](https://gradle.org/) for installation and operation instructions.
  
 ### Creating an executable jar file
 The project is set up to use gradle wrapper to create the jar file.
